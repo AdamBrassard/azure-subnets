@@ -3,7 +3,6 @@
 - name: Create/Update Subnets
   azure_rm_subnet:
     name: "{{ subnet_name }}"
-    location: "{{ location }}"
     resource_group: "{{ resource_group }}"
     virtual_network_name: "{{ vnet_name }}"
     address_prefix_cidr: "{{ subnet_address_prefix }}"

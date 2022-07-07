@@ -18,13 +18,11 @@ Role Variables
 ``` yaml
 # Global Vars always required:
 resource_group:
-location:
-
 # Role specific Var required:
 
 vnet_name:
 subnet_name:
-subnet_address_prefixc:
+subnet_address_prefix:
 
 #optional settings
 nsg_name: #This is used to refer to an NSG in the same resource group as the subnet
